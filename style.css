@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./Images/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+form p{
+    text-align: center;
+    font-size: 22px;
+    font-weight:bold;
+}
+.f1{
+    border: 5px inset lightgrey;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: 45px auto;
+    border-radius: 13px;
+}
+form label,input,select{
+    margin: 0 20px;
+}
+label{
+    font-weight: bold;
+}
+input{
+    height: 20px;
+}
+#sel{
+    height: 25px;
+}
+.btn1{
+    margin:25px 5px;
+    height: 30px;
+    width: 85px;
+    border: 3px inset grey;
+    border-radius: 50px;
+}
+.btn2{
+    margin:25px 5px;
+    height: 30px;
+    width: 85px;
+    border-radius: 50px;
+    border: 3px outset gray;
+}
+#btn{
+    margin: 0 auto;
+}
+input:focus{
+    background-color: lightgray;
+}
+.btn1:hover{
+    background-color: rgb(157, 239, 157);
+}
+.btn2:hover{
+    background-color: rgb(228, 106, 106);
+}
